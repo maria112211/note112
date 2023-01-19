@@ -1,0 +1,347 @@
+body {
+  font-family: "Montserrat";
+  background-image: url("../images/topcorner1.png");
+  background-repeat: no-repeat;
+  background-size: 64%;
+  background-position: right top;
+}
+h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 1.4;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: 38px;
+  line-height: 49px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: "Poppins";
+  color: #B3353F;
+  margin: 3% 0;
+}
+h6 {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+p {
+  font-family: "Montserrat";
+  margin: 3% 0;
+  font-size: 17px;
+  font-weight: 300;
+}
+.container-fluid {
+  padding: 2% 10% 3% 10%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:link:hover{
+  color: #B3353F;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 2.4rem;
+}
+
+.navbar-brand {
+  margin: 0 3%;
+  padding: 0 0 20px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: white !important;
+
+}
+.nav-item {
+  padding: 0 24px 20px;
+}
+.navbar span{
+  color: black !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* title */
+/* Content side */
+.text-underline{
+  background-image: url("../images/redunderline.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  align: bottom;
+}
+.mainbtn {
+  margin: 5% 3% 10% 0;
+}
+
+.fa-circle-play {
+  color: #B3353F;
+}
+
+/* image side */
+.home-banner-image {
+  padding: 4% 2% 2% 20%;
+  margin-left: 140px;
+  /* object-position: right 300px; */
+
+}
+.under-img-text{
+  text-align: center;
+  color: #a89d9d;
+  margin-left: 140px;
+}
+.under-img-text h6{
+  line-height: 3px;
+}
+.under-img-text p{
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+/* social contact */
+
+.socialcontact {
+  color: #B3353F;
+  margin: 10px 8px;
+}
+.social-icon{
+  padding-left: 13%;
+}
+.social-icon ul{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.social-icon ul li{
+  list-style: none;
+  margin: 0 14px;
+}
+.social-icon ul li .fa-lg {
+  transition: .6s;
+  color: #B3353F;
+}
+.social-icon ul li a{
+  position: relative;
+  display: block;
+  transition: .6s;
+}
+.social-icon ul li a:hover{
+  transform: translate(0, -10px);
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* linked-companies */
+#Linked-companies {
+  padding: 1% 10% 9% 10%;
+}
+
+.LC-heading {
+  color: #B3353F;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  padding: 2% 2% 4% 2%;
+}
+
+.company-image {
+  padding: 2% 2%;
+}
+
+
+/* why choose us */
+#about-us {
+  padding: 1% 10% 7% 10%;
+}
+
+.about-us-heading {
+  color: #B3353F;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.about-us-para{
+  margin: 40px;
+  padding: 0 10%;
+}
+.about-us-card .about-us-content {
+  background-color: #EBECF0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #5A5A5A;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-us-content:hover {
+  transform: scale(1.15);
+  box-shadow: 0px 0px 20px #5A5A5A;
+  background-color: #B3353F;
+  color: white;
+  /* width: 224px;
+  height: 340px;
+  padding: 20px; */
+}
+.about-us-content:hover .cyber-boxes-text {
+  color: white;
+}
+.about-us-card .icons-rounded-box img {
+  width: 70%;
+  margin: 0 auto;
+}
+.about-us-content:hover .icons-rounded-box img {
+  filter:brightness(4);
+}
+.cyber-boxes-text {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 600;
+}
+.about-us-card .row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-card .col-lg-3, .col-md-3, .col-sm-6 {
+  flex: 0 0 7%;
+  max-width: 20%;
+}
+.about-us-content {
+  width: 200px;
+  height: 300px;
+}
+
+.about-us-card img {
+  width: 100%;
+  height: 80%;
+}
+/* Add some margin to the bottom of each card */
+.about-us-content {
+  margin-bottom: 5px;
+}
+
+/* Add some padding to the inside of each card */
+.icons-rounded-box {
+  padding: 40px;
+}
+/* Add margin to the top, bottom, left and right of each card */
+.about-us-card .col-lg-3 {
+  margin: 10px;
+}
+
+/* Add margin to the top and bottom of each card */
+.about-us-card .col-lg-3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* Align the text to the center of the cards */
+.cyber-boxes-text {
+  text-align: center;
+}
+.icons-rounded-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons-rounded-box img {
+  margin: auto;
+}
+.icons-rounded-box img {
+  object-fit: cover;
+}
+.icons-rounded-box img {
+  transform: scale(1.5);
+}
+.container{
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+/* ..............faq section........... */
+/* #accordian-section{
+
+  padding: 4% 1% 7% 1%;
+} */
+.custom-accordion {
+  background-color: #EBECF0 !important;
+  color: black !important;
+}
+.custom-accordion.accordion-header:active {
+    background-color: #EBECF0 !important;
+    color: black !important;
+}
+
+.accordion-button {
+  background-color: #EBECF0;
+  font-size:
+}
+.accordion-button:hover {
+  background-color: #B3353F !important;
+  color: white !important;
+}
+
+.accordion-button:focus {
+  background-color: #B3353F !important;
+  color: white !important;
+}
+
+.accordion-item {
+margin: 4% 0;
+}
+.faq-heading{
+  color: #B3353F;
+}
+.faq-content-image{
+  position: relative;
+  left: -220px;
+}
+/* .....................footer.......... */
+.footer-section{
+
+  background-color:#EBECF0;
+}
+.company{
+  padding-left: 100px;
+}
+.contact-icon{
+  color: #B3353F;
+}
+.f-content{
+  line-height: 17px;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.f-contact{
+  margin-top: 14px;
+}
+.f-img{
+margin: -11px;
+}
